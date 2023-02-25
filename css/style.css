@@ -1,0 +1,827 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, ul, p{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+/* Top Header Section Start */
+.top_header{
+
+padding: 15px 0;
+}
+
+.top_header ul{
+    
+list-style: none;
+    
+display: flex;
+    
+justify-content: end;
+}
+
+.top_header ul li{
+    
+margin-left: 30px;
+}
+
+.header_info{
+
+display: flex;
+
+align-items: center;
+}
+
+.header_icon{
+
+font-size: 22px;
+
+color: #f69165;
+
+margin-right: 7px;
+}
+
+.header_content h5{
+
+font-size: 14px;
+
+font-weight: 700;
+}
+
+.header_content p{
+
+font-size: 14px;
+}
+/* Top Header Section End */
+
+/* Header Section Start */
+header{
+
+background: #00cce1;
+}
+
+.appoinment_btn{
+
+color: #fff;
+
+background: #f69165;
+
+padding: 12px 30px;
+
+transform: skewX(340deg);
+}
+
+.appoinment_btn a{
+
+color: #fff;
+
+text-decoration: none;
+
+transform: skewX(18deg);
+
+display: inline-block;
+
+font-weight: 500;
+}
+
+.nav-link{
+    color: #fff;
+    position: relative;
+    z-index: 0;
+    padding: 12px 0;
+}
+
+
+.nav-link::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0;
+    background-color: #f69165;
+    transition: .4s all ease-in-out;
+}
+
+.nav-link:hover::before{
+    height: 100%;   
+    z-index: -1;
+    color: #00cce1;
+}
+
+.navbar{
+    padding: 0;
+}
+
+.appoinment_btn i{
+
+transform: skewX(18deg);
+}
+
+/* Header Section End */
+
+/* Banner Section Start  */
+    .banner{
+        background-image: url(../images/bg.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    
+    }
+    .banner h2{
+
+background: #00cce1;
+
+color: #fff;
+
+margin-bottom: 10px;
+
+text-transform: uppercase;
+
+padding: 3px 10px;
+
+display: inline-block;
+
+font-size: 28px;
+
+font-weight: 700;
+
+}
+    .banner h1{
+
+background: #f69165;
+
+color: #fff;
+
+text-transform: uppercase;
+
+padding: 3px 10px;
+
+display: inline-block;
+
+font-weight: 700;
+
+}
+    .banner p{
+
+margin-top: 15px;
+
+}
+    .banner_img{
+position: absolute;
+bottom: 0;
+
+    }
+
+    .btn_learn_more{
+
+background: #f69165;
+
+color: #fff;
+
+border-radius: 0;
+
+text-transform: uppercase;
+
+font-size: 14px;
+
+font-weight: 500;
+
+margin-top: 20px;
+
+transition: .5s all ease-in-out;
+}
+
+.btn_learn_more:hover{
+    background: transparent;
+    border: 1px solid #f69165;
+    color: #f69165;
+
+}
+    .btn_book_now{
+
+background: #00cce1;
+
+color: #fff;
+
+border-radius: 0;
+
+text-transform: uppercase;
+
+font-size: 14px;
+
+font-weight: 500;
+
+margin-top: 20px;
+transition: .5s all ease-in-out;
+
+}
+
+.btn_book_now:hover{
+    background: transparent;
+    border: 1px solid #00cce1;
+    color: #00cce1;
+}
+
+.height{
+        min-height: 82vh;
+        align-items: center;
+        position:relative; 
+    }
+    .owl-nav .owl-prev{
+
+position: absolute;
+
+top: 50%;
+
+left: -2.4%;
+
+transform: translate(-50%,-50%);
+
+height: 40px;
+
+width: 50px;
+
+background: #f69165 !important;
+
+color: #fff !important;
+
+}
+    .owl-nav .owl-next{
+        position: absolute;
+        top: 50%;
+        right: -6.9%;
+        transform: translate(-50%,-50%);
+        height: 40px;
+        width: 50px;
+        background: #f69165 !important;
+        color: #fff !important;
+    }
+   
+/* Banner Section End  */
+
+/* Agency Section Start */
+.agency_section{
+}
+.agency_section h3{
+    
+font-weight: 700;
+    
+text-transform: capitalize;
+    
+font-size: 25px;
+}
+.agency_section p{
+    
+font-size: 14px;
+    
+margin-top: 10px;
+    
+color: #939393;
+}
+.a_height{
+   
+    position: relative;
+}
+.r_height{
+
+padding: 70px 0px;
+}
+.agency_img{
+
+    position: absolute;
+    bottom: 0;
+}
+.agency_img img{
+   
+    
+   
+}
+.tooth{
+
+}
+.tooth_child{
+
+}
+.tooth_child img{
+    width: 35px;
+}
+.tooth_child h6{
+    
+font-size: 20px;
+    
+font-weight: 700;
+    
+margin: 10px 0;
+} 
+.tooth_child p{
+    
+color: #939393;
+    
+font-size: 13px;
+}
+/* Agency Section End */
+
+/* Doctor Section Start */
+.our_doctor{
+
+background: #f9f9f9;
+
+padding: 70px 0px;
+}
+.section_header h3{
+
+font-weight: 700;
+
+margin-bottom: 10px;
+}
+.section_header p{
+
+font-size: 14px;
+
+color: #939393;
+
+margin-top: 10px;
+}
+.doctor{
+
+text-align: center;
+
+border-bottom: 5px solid #00cce1;
+}
+.doctor:hover{
+    border-color: #f69165;
+    color: #f69165;
+}
+.doctor h6{
+    
+margin-top: 20px;
+    
+font-weight: 700;
+}
+
+.doctor p{
+    
+margin-bottom: 20px;
+}
+.doctor_img{
+    position: relative;
+
+
+}
+.doctor_img::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 0;
+    width: 100%;  
+    transition: 0.5s all ease-in-out;
+  
+   
+
+}
+.doctor_img:hover::before{
+    height: 100%;
+    background-color: #454545;
+    opacity: 0.7;
+   
+}
+.hover_icon{
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+    opacity: 0;
+   
+   
+   
+}
+.doctor_img:hover .hover_icon{
+    opacity: 1;
+    transition: 0.5s all ease-in-out;
+   
+   
+   
+
+}
+.i{
+
+width: 40px;
+
+height: 40px;
+
+text-align: center;
+
+font-size: 25px;
+
+
+border: 2px solid white;
+
+margin: 0px 3px;
+}
+.i:hover{
+background-color: #f69165;
+color: #fff;
+border-color: #f69165;
+transition: 0.1s all ease-in-out;
+
+
+}
+.i a{
+    color: white;
+}
+.doctor_img img{
+    
+}
+
+/* Doctor Section End */
+
+/* Our Services Section Start */
+.our_services{
+    padding: 70px 0;
+}
+
+.tooth_extraction_main{
+
+border: 5px solid #ebebeb;
+
+padding: 15px;
+transition: .5s all ease-in-out;
+}
+
+.tooth_extraction_main:hover{
+    border-color: #f69165;
+    
+}
+
+
+.tooth_extraction_heading{
+
+display: flex;
+
+align-items: center;
+transition: .5s all ease-in-out;
+}
+
+.tooth_extraction_main:hover .tooth_extraction_heading{
+    color: #f69165;
+}
+.tooth_extraction_img{
+
+}
+.tooth_extraction_img img{
+
+width: 35px;
+
+margin-right: 10px;
+}
+.tooth_extraction_cont{
+
+}
+.tooth_extraction_cont h5{
+
+font-size: 30px;
+
+font-weight: 700;
+}
+.tooth_extraction_main p{
+
+margin: 10px 0;
+
+font-size: 16px;
+}
+.tooth_extraction_main input{
+
+background: transparent;
+
+border: none;
+
+font-weight: 600;
+transition: .5s all ease-in-out;
+}
+
+.tooth_extraction_main:hover input{
+    color: #f69165;
+}
+
+
+
+
+/* Our Services Section End */
+
+/* Our Pricing Section Start */
+
+    .our_pricing_section{
+        
+background: #f9f9f9;
+        
+padding: 60px 0;
+    }
+    .our_pricing{
+
+border: 5px solid #fff;
+
+padding: 15px 0;
+
+text-align: center;
+
+line-height: 30px;
+transition: .5s all ease-in-out;
+}
+
+.our_pricing:hover{
+    border-color: #f69165;
+   
+
+}
+.our_pricing:hover h3{
+    color: #f69165;
+
+}
+.our_pricing:hover input{
+background-color: #f69165;
+color: #fff;
+
+}
+
+.our_pricing_section:hover input{
+ 
+}
+
+
+.our_pricing:hover .pricing{
+  background-color:#f69165;
+  color: #fff;
+  transition: .5s all ease-in-out;
+}
+    .our_pricing h3{
+
+font-size: 35px;
+
+font-weight: 700;
+
+color: #00cce1;
+transition: .5s all ease-in-out;
+
+}
+    .our_pricing span{
+
+font-size: 14px;
+
+}
+    .pricing{
+
+background: #fff;
+
+padding: 5px 0;
+
+margin: 10px 0;
+
+color: #00cce1;
+transition: .5s all ease-in-out;
+
+}
+    .pricing h1{
+
+font-size: 65px;
+
+font-weight: 700;
+
+}
+    .pricing span{
+
+font-weight: 600;
+
+}
+
+    .our_pricing p{
+
+margin: 15px 0;
+
+}
+    .our_pricing input{
+        
+background: #00cce1;
+        
+border: none;
+        
+padding: 10px 20px;
+        
+color: #fff;
+        
+font-weight: 700;
+transition: .5s all ease-in-out;
+    }
+
+/* Our Pricing Section Start */
+
+/* Our Happy Clients Section Start */
+    .our_happy_clients_section{
+        background-image: url(../images/happy-client-bg.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+       position: relative;
+        padding: 60px 0;
+       z-index: 1;
+      
+    }
+    .our_happy_clients_section::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: black;
+        opacity: .7;
+        z-index: -1;
+      
+    }
+    .our_happy_clients_section .section_header{
+        color:#fff;
+     
+       
+    }
+    .our_happy_clients_section .section_header p{
+        color: #Fff;
+    }
+
+   
+
+    .section_header h3{
+
+    }
+    .section_header img{
+
+    }
+    .section_header p{
+
+    }
+    .logos{
+        display: flex;
+       align-items: center;
+       justify-content: space-between;
+    }
+    .owl-secondary .owl-item img{
+        width: 100px;
+      
+    }
+    .owl-secondary .owl-stage{
+        display: flex;
+        align-items: center;
+    }
+    .owl-secondary  .owl-stage  .l_item3 img{
+      
+width: 150px;
+    }
+    .owl-secondary  .owl-stage .l_item1 img{
+
+width: 185px;
+
+}
+    .owl-secondary  .owl-stage  .l_item2 img{
+
+width: 150px;
+
+}
+    .owl-secondary  .owl-stage .l_item4 img{
+
+width: 140px;
+
+}
+    .owl-secondary  .owl-stage .l_item5 img{
+
+width: 125px;
+
+}
+
+    
+    
+/* Our Happy Clients Section End */
+footer{
+
+background: #1b1b1b;
+
+padding-top: 60px;
+}
+footer .left{
+    
+color: #fff;
+}
+footer .left img{
+    
+}
+footer .left p{
+    
+margin: 10px 0px;
+}
+footer .left ul{
+    
+list-style: none;
+    
+display: flex;
+    
+align-items: center;
+}
+footer .left ul li{
+}
+footer .left ul li p{
+    
+}
+footer .left ul li i{
+    
+font-size: 45px;
+    
+margin-right: 16px;
+    
+color: #0899a8;
+}
+.middle{
+
+color: #fff;
+}
+.middle h4{
+    
+font-size: 32px;
+    
+margin-bottom: 20px;
+    
+font-weight: 700;
+}
+.f_doc{
+
+display: flex;
+}
+.f_doc_img{
+   
+margin-right: 15px;
+}
+.f_doc_img img{
+    
+width: 170px;
+}
+.f_doc_con{
+
+}
+.f_doc_con p{
+    
+}
+.f_doc_con span{
+    
+font-size: 13px;
+    
+color: #777777;
+}
+
+.tc{
+    color: #fff;
+}
+.right{
+
+}
+.right h4{
+
+}
+.right p{
+
+}
+.form{
+
+}
+.form input{
+    
+}
+.form input[type=button]{
+    
+}
+.social{
+
+}
+.social_cont{
+
+}
+.social_cont h4{
+
+}
+.social_icon{
+    
+}
+.social_icon ul{
+    
+}
+.social_icon ul li{
+    
+}
